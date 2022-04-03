@@ -5,15 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".splash"
-    android:background="@drawable/bbb"
+    android:background="@drawable/aaa"
     android:padding="20dp">
 
     <ImageView
+        android:layout_marginTop="240dp"
         android:padding="10dp"
         android:id="@+id/logo"
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:src="@drawable/res"
+
         />
 
 </LinearLayout>
