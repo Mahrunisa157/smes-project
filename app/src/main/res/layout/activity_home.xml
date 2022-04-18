@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaa"
+    tools:context=".home">
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="650dp">
+
+
+    </FrameLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="20dp"
+        android:text="Food Chef"
+        android:textColor="#FB8C00"
+        android:textSize="30dp"
+
+        />
+
+    <FrameLayout
+
+        android:id="@+id/framelayout1"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:background="#CFB068"
+        android:foregroundGravity="center"
+        android:padding="20dp"
+
+        >
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="Drinks"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/framelayout2"
+        android:layout_marginTop="100dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:background="#E1CA94"
+        android:foregroundGravity="center"
+
+android:layout_marginLeft="220dp"
+        >
+        <TextView
+           android:padding="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:text="Drinks"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            />
+    </FrameLayout>
+
+
+    <FrameLayout
+        android:id="@+id/framelayout3"
+        android:layout_marginTop="300dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:background="#E1CA94"
+        android:foregroundGravity="center"
+        android:padding="20dp"
+        android:layout_marginLeft="20dp"
+
+        >
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:text="Drinks"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/framelayout4"
+        android:layout_marginTop="300dp"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:background="#CFB068"
+        android:foregroundGravity="center"
+
+        android:layout_marginLeft="220dp"
+        >
+        <TextView
+           android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:text="Drinks"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            />
+    </FrameLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/fbtn1"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#FFB300"
+        android:padding="10dp"
+        android:text="Home"
+        android:textColor="@color/white"
+        android:textSize="11dp" />
+
+    <Button
+        android:id="@+id/fbtn2"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="115dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#FFB300"
+        android:padding="10dp"
+        android:text="About Us"
+        android:textColor="@color/white"
+        android:textSize="9dp" />
+
+    <Button
+        android:id="@+id/fbtn3"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="205dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#FFB300"
+        android:padding="10dp"
+        android:text="Contact Us"
+        android:textColor="@color/white"
+        android:textSize="10dp" />
+
+
+
+    <Button
+        android:id="@+id/fbtn5"
+        android:layout_width="90dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="295dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#FFB300"
+        android:padding="10dp"
+        android:text="Cart"
+        android:textColor="@color/white"
+        android:textSize="11dp" />
+
+
+
+
+
+</RelativeLayout>
