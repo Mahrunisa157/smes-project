@@ -118,8 +118,13 @@ android:layout_marginLeft="220dp"
     </FrameLayout>
 
 
-
-
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_marginTop="470dp"
+        android:id="@+id/lottie"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/ani" />
 
     <Button
         android:id="@+id/fbtn1"
@@ -159,7 +164,6 @@ android:layout_marginLeft="220dp"
         android:text="Contact Us"
         android:textColor="@color/white"
         android:textSize="10dp" />
-
 
 
     <Button
