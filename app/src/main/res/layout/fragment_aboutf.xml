@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aboutf"
+    android:orientation="horizontal"
+    android:background="@drawable/aaa"
+    android:padding="20dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/res"
+
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="83dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="170dp"
+
+        android:padding="20dp"
+        android:text="ABOUT US"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_marginTop="240dp"
+        android:padding="35dp"
+        android:text="Founded in 2022 by Laura and Andrew Maychruk, Buzz Café is a place that IS Oak Park.  We believe good food, community and family are the ties that bind, and the café embodies those ideals wholeheartedly. For over 20 years Buzz Café has been a vibrant part of the Oak Park Arts District showcasing local art and music, serving as a community center and serving delicious food and coffee! Specializing in locally sourced, organic, vegan and vegetarian foods as well as fair trade coffees from around the world, Buzz Café has become an Oak Park institution."
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+
+
+
+</RelativeLayout>

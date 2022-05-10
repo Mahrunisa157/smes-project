@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contactf"
+    android:background="@drawable/aaa"
+    android:padding="20dp">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/res"
+
+        />
+
+
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_marginTop="140dp"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="@color/white"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="Contact Us"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="#FFB300"
+            android:paddingTop="20dp"/>
+
+
+        <TextView
+
+            android:id="@+id/textView"
+            android:layout_width="200dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="100dp"
+            android:text="Email:"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/textemail"
+            android:layout_width="200dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="130dp"
+            android:rotationX="13"
+            android:text="ChefFood11@gmail.com" />
+
+        <TextView
+
+            android:id="@+id/phone"
+            android:layout_width="200dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="160dp"
+            android:text="Phone:"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+
+            android:id="@+id/phonet"
+            android:layout_width="200dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="190dp"
+            android:rotationX="13"
+            android:text="+91 039335 8067"
+            />
+
+        <TextView
+
+            android:id="@+id/address"
+            android:layout_width="200dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="220dp"
+            android:text="Address:"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+
+            android:id="@+id/addresstext"
+            android:layout_width="200dp"
+            android:layout_height="38dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="250dp"
+            android:rotationX="13"
+            android:text=" Street no 44 ...., Lahore"
+            />
+
+
+
+    </FrameLayout>
+
+
+
+
+</RelativeLayout>

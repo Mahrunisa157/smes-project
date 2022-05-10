@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".register"
+    tools:context=".login"
     android:orientation="vertical"
     android:padding="20dp"
     android:background="@drawable/aaa">
+
 
     <ImageView
         android:id="@+id/logo"
@@ -16,7 +17,6 @@
         android:layout_marginLeft="70dp"
         android:src="@drawable/res"
         />
-
 
     <FrameLayout
         android:id="@+id/framelayout"
@@ -28,7 +28,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:text="Register Form"
+            android:text="Login Form"
             android:textAlignment="center"
             android:textSize="30dp"
             android:textColor="#FFB300"
@@ -36,62 +36,69 @@
 
 
         <EditText
-            android:id="@+id/id_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="110dp"
-            android:hint="Enter Name"
-            android:textColor="@color/white" />
-
-        <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/id_username"
-            android:textColor="@color/white"
-            android:layout_marginTop="160dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="120dp"
             android:hint="Enter Username"
             />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/id_pass"
-            android:textColor="@color/white"
-            android:layout_marginTop="210dp"
-            android:hint="Enter password"
-            />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/id_repass"
-            android:textColor="@color/white"
-            android:layout_marginTop="260dp"
-            android:hint="Confirm Pssword"
-            />
 
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:passwordToggleEnabled="true"
+            android:layout_marginTop="190dp"
+            >
+
+            <EditText
+                android:id="@+id/id_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="password"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
 
         <Button
-            android:id="@+id/btn_submit"
+            android:id="@+id/btn_login"
             android:layout_width="150dp"
             android:layout_height="40dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="340dp"
+            android:layout_marginTop="270dp"
             android:background="#FFB300"
-            android:text="Register"
+            android:text="Login"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold" />
 
 
-
     </FrameLayout>
-    <TextView
+
+
+    <LinearLayout
+        android:paddingTop="15dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:text="Copyrights &#169; ChefFood Pvt Ltd, Lahore"/>
-
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have any account?"
+            android:textAlignment="center"
+            />
+        <TextView
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="#039BE5"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
 
 
 </LinearLayout>

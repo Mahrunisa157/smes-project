@@ -10,6 +10,7 @@
     android:padding="20dp"
     >
 
+
     <ImageView
         android:id="@+id/logo"
         android:layout_width="200dp"
@@ -17,6 +18,7 @@
         android:layout_marginLeft="70dp"
         android:src="@drawable/res"
         />
+
 
     <FrameLayout
         android:id="@+id/framelayout"
@@ -28,37 +30,70 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:text="Login Form"
+            android:text="Register Form"
             android:textAlignment="center"
             android:textSize="30dp"
             android:textColor="#FFB300"
             android:paddingTop="20dp"/>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="70dp"
+            android:text="Fill all the fields to get registered."
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textColor="#E53935"
+            />
+
+
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/id_username"
-            android:textColor="@color/white"
-            android:layout_marginTop="120dp"
+            android:id="@+id/id_username1"
+            android:textColor="@color/black"
+            android:layout_marginTop="160dp"
             android:hint="Enter Username"
-            />
 
+            />
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/id_pass"
-            android:textColor="@color/white"
-            android:layout_marginTop="190dp"
-            android:hint="Enter Password"
+            android:id="@+id/id_pass1"
+            android:textColor="@color/black"
+            android:layout_marginTop="210dp"
+            android:hint="Enter password"
             />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_repass"
+            android:textColor="@color/black"
+            android:layout_marginTop="260dp"
+            android:hint="Confirm Pssword"
+            />
+
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="340dp"
+            android:background="#FFB300"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
 
         <Button
             android:id="@+id/btn_login"
             android:layout_width="150dp"
             android:layout_height="40dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="270dp"
+            android:layout_marginTop="390dp"
             android:background="#FFB300"
             android:text="Login"
             android:textColor="@color/white"
@@ -66,30 +101,15 @@
             android:textStyle="bold" />
 
 
+
     </FrameLayout>
-
-
-<LinearLayout
-    android:paddingTop="15dp"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:gravity="center"
-    >
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Don't have any account?"
+        android:layout_marginTop="50dp"
         android:textAlignment="center"
-        />
-    <TextView
-        android:id="@+id/register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Register"
-        android:textColor="#039BE5"
-        android:textStyle="bold"
-        />
-</LinearLayout>
+        android:textColor="@color/black"
+        android:text="Copyrights &#169; ChefFood Pvt Ltd, Lahore"/>
+
 
 </LinearLayout>

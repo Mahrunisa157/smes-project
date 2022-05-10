@@ -41,60 +41,70 @@
 
         >
 
-        <TextView
-            android:gravity="center"
+        <Button
+            android:id="@+id/btndrinks"
             android:layout_width="match_parent"
             android:layout_height="120dp"
+            android:background="#CFB068"
+            android:gravity="center"
             android:text="Drinks"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="20dp"
-            android:textStyle="italic" />
+            android:textStyle="italic"
+            tools:ignore="TextContrastCheck" />
     </FrameLayout>
 
     <FrameLayout
         android:id="@+id/framelayout2"
-        android:layout_marginTop="100dp"
         android:layout_width="170dp"
         android:layout_height="170dp"
-        android:background="#E1CA94"
-        android:foregroundGravity="center"
-
         android:layout_marginLeft="220dp"
-        >
-        <TextView
-            android:padding="20dp"
-            android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:background="#E1CA94"
+
+        android:foregroundGravity="center">
+
+        <Button
+            android:id="@+id/btndessert"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:text="Drinks"
+            android:layout_height="120dp"
+            android:background="#E1CA94"
+            android:gravity="center"
+            android:paddingTop="40dp"
+            android:text="Dessert"
+            android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:textStyle="italic"
-            />
+            tools:ignore="TextContrastCheck" />
     </FrameLayout>
 
 
     <FrameLayout
         android:id="@+id/framelayout3"
-        android:layout_marginTop="300dp"
         android:layout_width="170dp"
         android:layout_height="170dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="300dp"
         android:background="#E1CA94"
         android:foregroundGravity="center"
         android:padding="20dp"
-        android:layout_marginLeft="20dp"
 
         >
-        <TextView
-            android:gravity="center"
+
+        <Button
+            android:id="@+id/btnjunkfood"
             android:layout_width="match_parent"
-            android:layout_height="130dp"
-            android:text="Drinks"
+            android:layout_height="120dp"
+            android:background="#E1CA94"
+            android:gravity="center"
+            android:text="Junk Food"
+            android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:textStyle="italic"
-            />
+            tools:ignore="TextContrastCheck" />
     </FrameLayout>
 
     <FrameLayout
@@ -107,15 +117,19 @@
 
         android:layout_marginLeft="220dp"
         >
-        <TextView
-            android:gravity="center"
+        <Button
+            android:id="@+id/btnicecream"
             android:layout_width="match_parent"
-            android:layout_height="160dp"
-            android:text="Drinks"
+            android:layout_height="120dp"
+            android:background="#CFB068"
+            android:gravity="center"
+            android:paddingTop="40dp"
+            android:text="Icecream"
+            android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:textStyle="italic"
-            />
+            tools:ignore="TextContrastCheck" />
     </FrameLayout>
 
 

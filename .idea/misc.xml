@@ -3,10 +3,33 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/smesterproject/app/src/main/res/drawable/item_selector.xml" value="0.1" />
+        <entry key="..\:/smesterproject/app/src/main/res/drawable/round_corner.xml" value="0.1" />
+        <entry key="..\:/smesterproject/app/src/main/res/layout/activity_about.xml" value="0.264" />
+        <entry key="..\:/smesterproject/app/src/main/res/layout/activity_contact.xml" value="0.25416666666666665" />
+        <entry key="..\:/smesterproject/app/src/main/res/layout/activity_dessert.xml" value="0.264" />
+        <entry key="..\:/smesterproject/app/src/main/res/layout/activity_drinks.xml" value="0.2" />
+        <entry key="..\:/smesterproject/app/src/main/res/layout/activity_fragments.xml" value="0.25416666666666665" />
+        <entry key="..\:/smesterproject/app/src/main/res/layout/activity_home.xml" value="0.24010416666666667" />
+        <entry key="..\:/smesterproject/app/src/main/res/layout/activity_home1.xml" value="0.25025641025641027" />
+        <entry key="..\:/smesterproject/app/src/main/res/layout/activity_homenav.xml" value="0.13333333333333333" />
+        <entry key="..\:/smesterproject/app/src/main/res/layout/activity_icecream.xml" value="0.24010416666666667" />
+        <entry key="..\:/smesterproject/app/src/main/res/layout/activity_info.xml" value="0.1975806451612903" />
+        <entry key="..\:/smesterproject/app/src/main/res/layout/activity_junkfood.xml" value="0.25416666666666665" />
+        <entry key="..\:/smesterproject/app/src/main/res/layout/activity_login.xml" value="0.2056451612903226" />
         <entry key="..\:/smesterproject/app/src/main/res/layout/activity_main.xml" value="0.25052083333333336" />
         <entry key="..\:/smesterproject/app/src/main/res/layout/activity_register.xml" value="0.25416666666666665" />
         <entry key="..\:/smesterproject/app/src/main/res/layout/activity_splash.xml" value="0.25052083333333336" />
+        <entry key="..\:/smesterproject/app/src/main/res/layout/activity_summary.xml" value="0.25025641025641027" />
+        <entry key="..\:/smesterproject/app/src/main/res/layout/cartlist.xml" value="0.25416666666666665" />
+        <entry key="..\:/smesterproject/app/src/main/res/layout/fragment_aboutf.xml" value="0.25416666666666665" />
+        <entry key="..\:/smesterproject/app/src/main/res/layout/fragment_cart.xml" value="0.24010416666666667" />
+        <entry key="..\:/smesterproject/app/src/main/res/layout/fragment_contactf.xml" value="0.25416666666666665" />
+        <entry key="..\:/smesterproject/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/smesterproject/app/src/main/res/layout/list.xml" value="0.25416666666666665" />
+        <entry key="..\:/smesterproject/app/src/main/res/layout/listitem.xml" value="0.25025641025641027" />
         <entry key="..\:/smesterproject/app/src/main/res/layout/splash.xml" value="0.25052083333333336" />
+        <entry key="..\:/smesterproject/app/src/main/res/menu/botttom_nav_menu.xml" value="0.25416666666666665" />
       </map>
     </option>
   </component>
